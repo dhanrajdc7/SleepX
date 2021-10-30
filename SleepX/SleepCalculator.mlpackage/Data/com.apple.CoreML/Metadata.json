@@ -1,0 +1,6 @@
+{
+  "MLModelVersionStringKey" : "1.0",
+  "MLModelDescriptionKey" : "A model to predict bedtime based on wakeup time, sleep duration, and coffee intake.",
+  "MLModelAuthorKey" : "Dhanraj Chavan",
+  "MLModelLicenseKey" : "--"
+}

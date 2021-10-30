@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36E26320271219470030E8EE /* SleepXApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E2631F271219470030E8EE /* SleepXApp.swift */; };
+		36E26322271219470030E8EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E26321271219470030E8EE /* ContentView.swift */; };
+		36E26324271219500030E8EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36E26323271219500030E8EE /* Assets.xcassets */; };
+		36E26327271219500030E8EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36E26326271219500030E8EE /* Preview Assets.xcassets */; };
+		36E2633027121D4E0030E8EE /* SleepCalculator.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 36E2632F27121D4E0030E8EE /* SleepCalculator.mlpackage */; };
+		36E2633327121E0F0030E8EE /* BetterRest.csv in Resources */ = {isa = PBXBuildFile; fileRef = 36E2633227121E0F0030E8EE /* BetterRest.csv */; };
+		36E26336271223240030E8EE /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 36E26335271223240030E8EE /* Lottie */; };
+		36E2633E271225CB0030E8EE /* coffeedata.json in Resources */ = {isa = PBXBuildFile; fileRef = 36E2633A271225CB0030E8EE /* coffeedata.json */; };
+		36E2633F271225CB0030E8EE /* sleeping.json in Resources */ = {isa = PBXBuildFile; fileRef = 36E2633B271225CB0030E8EE /* sleeping.json */; };
+		36E26342271225E20030E8EE /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E26341271225E20030E8EE /* LottieView.swift */; };
+		36E26344271227E00030E8EE /* 41447-coffee-clock.json in Resources */ = {isa = PBXBuildFile; fileRef = 36E26343271227E00030E8EE /* 41447-coffee-clock.json */; };
+		36E2634627122D390030E8EE /* AboutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E2634527122D390030E8EE /* AboutApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		36E2631C271219470030E8EE /* SleepX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36E2631F271219470030E8EE /* SleepXApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepXApp.swift; sourceTree = "<group>"; };
+		36E26321271219470030E8EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		36E26323271219500030E8EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36E26326271219500030E8EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		36E2632F27121D4E0030E8EE /* SleepCalculator.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = SleepCalculator.mlpackage; sourceTree = "<group>"; };
+		36E2633227121E0F0030E8EE /* BetterRest.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BetterRest.csv; sourceTree = "<group>"; };
+		36E2633A271225CB0030E8EE /* coffeedata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = coffeedata.json; sourceTree = "<group>"; };
+		36E2633B271225CB0030E8EE /* sleeping.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sleeping.json; sourceTree = "<group>"; };
+		36E26341271225E20030E8EE /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		36E26343271227E00030E8EE /* 41447-coffee-clock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "41447-coffee-clock.json"; sourceTree = "<group>"; };
+		36E2634527122D390030E8EE /* AboutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36E26319271219460030E8EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36E26336271223240030E8EE /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36E26313271219460030E8EE = {
+			isa = PBXGroup;
+			children = (
+				36E2631E271219470030E8EE /* SleepX */,
+				36E2631D271219470030E8EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36E2631D271219470030E8EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36E2631C271219470030E8EE /* SleepX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36E2631E271219470030E8EE /* SleepX */ = {
+			isa = PBXGroup;
+			children = (
+				36E26343271227E00030E8EE /* 41447-coffee-clock.json */,
+				36E2633A271225CB0030E8EE /* coffeedata.json */,
+				36E2633B271225CB0030E8EE /* sleeping.json */,
+				36E26337271224DD0030E8EE /* Animations */,
+				36E2633127121DA00030E8EE /* Data */,
+				36E26338271225220030E8EE /* Views */,
+				36E2631F271219470030E8EE /* SleepXApp.swift */,
+				36E26321271219470030E8EE /* ContentView.swift */,
+				36E2632F27121D4E0030E8EE /* SleepCalculator.mlpackage */,
+				36E26323271219500030E8EE /* Assets.xcassets */,
+				36E26325271219500030E8EE /* Preview Content */,
+			);
+			path = SleepX;
+			sourceTree = "<group>";
+		};
+		36E26325271219500030E8EE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				36E26326271219500030E8EE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		36E2633127121DA00030E8EE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				36E2633227121E0F0030E8EE /* BetterRest.csv */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		36E26337271224DD0030E8EE /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		36E26338271225220030E8EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				36E26341271225E20030E8EE /* LottieView.swift */,
+				36E2634527122D390030E8EE /* AboutApp.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36E2631B271219460030E8EE /* SleepX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36E2632A271219500030E8EE /* Build configuration list for PBXNativeTarget "SleepX" */;
+			buildPhases = (
+				36E26318271219460030E8EE /* Sources */,
+				36E26319271219460030E8EE /* Frameworks */,
+				36E2631A271219460030E8EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SleepX;
+			packageProductDependencies = (
+				36E26335271223240030E8EE /* Lottie */,
+			);
+			productName = SleepX;
+			productReference = 36E2631C271219470030E8EE /* SleepX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36E26314271219460030E8EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					36E2631B271219460030E8EE = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 36E26317271219460030E8EE /* Build configuration list for PBXProject "SleepX" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36E26313271219460030E8EE;
+			packageReferences = (
+				36E26334271223240030E8EE /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = 36E2631D271219470030E8EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36E2631B271219460030E8EE /* SleepX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36E2631A271219460030E8EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36E2633E271225CB0030E8EE /* coffeedata.json in Resources */,
+				36E26344271227E00030E8EE /* 41447-coffee-clock.json in Resources */,
+				36E26327271219500030E8EE /* Preview Assets.xcassets in Resources */,
+				36E2633327121E0F0030E8EE /* BetterRest.csv in Resources */,
+				36E2633F271225CB0030E8EE /* sleeping.json in Resources */,
+				36E26324271219500030E8EE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36E26318271219460030E8EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36E26322271219470030E8EE /* ContentView.swift in Sources */,
+				36E26320271219470030E8EE /* SleepXApp.swift in Sources */,
+				36E2633027121D4E0030E8EE /* SleepCalculator.mlpackage in Sources */,
+				36E26342271225E20030E8EE /* LottieView.swift in Sources */,
+				36E2634627122D390030E8EE /* AboutApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		36E26328271219500030E8EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		36E26329271219500030E8EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36E2632B271219500030E8EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_ASSET_PATHS = "\"SleepX/Preview Content\"";
+				DEVELOPMENT_TEAM = 4LDA5ZPP86;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhanrajchavan.SleepX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36E2632C271219500030E8EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_ASSET_PATHS = "\"SleepX/Preview Content\"";
+				DEVELOPMENT_TEAM = 4LDA5ZPP86;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhanrajchavan.SleepX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36E26317271219460030E8EE /* Build configuration list for PBXProject "SleepX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36E26328271219500030E8EE /* Debug */,
+				36E26329271219500030E8EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36E2632A271219500030E8EE /* Build configuration list for PBXNativeTarget "SleepX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36E2632B271219500030E8EE /* Debug */,
+				36E2632C271219500030E8EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		36E26334271223240030E8EE /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		36E26335271223240030E8EE /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 36E26334271223240030E8EE /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 36E26314271219460030E8EE /* Project object */;
+}
